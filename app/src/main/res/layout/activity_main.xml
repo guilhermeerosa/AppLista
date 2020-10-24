@@ -8,12 +8,12 @@
     tools:context=".MainActivity" >
 
     <ListView
-        android:id="@+id/listView_products"
+        android:id="@+id/listview_products"
         android:layout_width="match_parent"
-        android:layout_height="500dp" />
+        android:layout_height="400dp" />
 
     <Button
-        android:id="@+id/btn_newProduct"
+        android:id="@+id/btn_new_product"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="onClickNewProduct"

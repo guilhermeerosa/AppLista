@@ -7,12 +7,12 @@ import java.io.Serializable;
 public class Product implements Serializable {
 
     private int id;
-    private String nome;
+    private String name;
     private Float valor;
 
-    public Product(int id, String nome, Float valor) {
+    public Product(int id, String name, Float valor) {
         this.id = id;
-        this.nome = nome;
+        this.name = name;
         this.valor = valor;
     }
 
@@ -24,12 +24,12 @@ public class Product implements Serializable {
         this.id = id;
     }
 
-    public String getNome() {
-        return nome;
+    public String getName() {
+        return name;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public Float getValor() {
@@ -43,6 +43,7 @@ public class Product implements Serializable {
     @NonNull
     @Override
     public String toString() {
-        return nome;
+        return name;
+
     }
 }
